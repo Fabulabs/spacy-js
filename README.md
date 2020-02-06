@@ -51,7 +51,7 @@ your `./node_modules/spacy` directory. It's recommended to use a virtual
 environment.
 
 ```bash
-pip install -r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 You can then run the REST API. By default, this will serve the API via
