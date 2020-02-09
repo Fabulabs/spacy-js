@@ -1,6 +1,6 @@
 {
-  "name": "spacy",
-  "version": "0.0.4",
+  "name": "spacy-js",
+  "version": "0.0.5",
   "description": "JavaScript API for spaCy with Python REST API",
   "main": "dist/index.js",
   "scripts": {
@@ -9,12 +9,12 @@
     "dev": "parcel src/index.js --target node --no-source-maps --global spacy",
     "package": "npm run build && npm pack"
   },
-  "author": "Ines Montani",
+  "author": "Ines Montani, Fabulabs",
   "license": "MIT",
-  "homepage": "https://github.com/ines/spacy-js#readme",
+  "homepage": "https://github.com/Fabulabs/spacy-js#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ines/spacy-js.git"
+    "url": "https://github.com/Fabulabs/spacy-js.git"
   },
   "keywords": [
     "spacy",
