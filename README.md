@@ -40,14 +40,14 @@ const spacy = require('spacy');
 You can install the JavaScript package via npm:
 
 ```bash
-npm install spacy
+npm install spacy-js
 ```
 
 ### Setting up the Python server
 
 First, clone this repo and install the requirements. If you've installed the
 package via npm, you can also use the `api/server.py` and `requirements.txt` in
-your `./node_modules/spacy` directory. It's recommended to use a virtual
+your `./node_modules/spacy-js` directory. It's recommended to use a virtual
 environment.
 
 ```bash

@@ -41,7 +41,7 @@ def doc2json(doc: spacy.tokens.Doc, model: str):
         "cats": doc.cats,
         "is_tagged": doc.is_tagged,
         "is_parsed": doc.is_parsed,
-        "is_nered": doc.is_nered,
+        # "is_nered": doc.is_nered,
         "is_sentenced": doc.is_sentenced,
     }
     ents = [
